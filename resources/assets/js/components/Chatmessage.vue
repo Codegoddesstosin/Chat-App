@@ -2,7 +2,6 @@
 	<div>
      <p>{{ message.message }} </p>
      <small>{{ message.user.name }} </small>
-
    </div>
 
 </template>
@@ -10,10 +9,9 @@
 <script>
 
 	export default {
-       
 
-
-        props: ['message']
+	   //accept message properties from message in message
+       props: ['message']
 	
 	}
 

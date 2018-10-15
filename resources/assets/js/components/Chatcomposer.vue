@@ -40,9 +40,6 @@ export default {
 
 
 <style>
-
-
-
 .btn-primary {
     color: #f0f0f0;
     background: #0c7c80;
@@ -52,29 +49,13 @@ export default {
     background: #339fd9;
     border: 1px solid #339fd9;
 }
-
-
-
-
-
-
-
 /* Text Area in Input Area */
-
-
-
 .windowb {
   height: 30px;
   max-height: 50px;
   min-height: 50px;
-
-
-   background-color: transparent;
-
-
+  background-color: transparent;
   padding: 8px 75px 8px 10px;
 }
-
-
 
 </style>

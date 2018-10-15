@@ -15,6 +15,7 @@ Broadcast::channel('App.User.{id}', function ($user, $id) {
     return (int) $user->id === (int) $id;
 });
 
+//presence channel return users
 Broadcast::channel('chatroom', function ($user) {
     return $user;
 });

@@ -11,6 +11,7 @@ use App\Events\MessagePosted;
 |
 */
 
+//Routes for chat app
 Route::get('/', function () {
     return view('First');
 });
@@ -36,6 +37,7 @@ Route::post('/messages', function () {
  'message' => request()->get('message')
 
 ]);
+
  //announce that the new message has been posted
      broadcast(new MessagePosted ($message, $user))->toOthers();
 
